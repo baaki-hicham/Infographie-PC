@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schéma Fonctionnel d'un Ordinateur</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <span class="badge">📘 Informatique — Tronc Commun</span>
+            <h1>Schéma Fonctionnel<br>d'un Ordinateur</h1>
+            <p class="subtitle">
+                Découvre comment un ordinateur <strong>reçoit</strong>, <strong>traite</strong>, <strong>renvoie</strong> et <strong>stocke</strong> les informations.
+            </p>
+        </div>
+
+        <!-- OBJECTIF -->
+        <div class="objectif-box">
+            <p>
+                🎯 <strong>Objectif :</strong> Comprendre que l'ordinateur fonctionne comme une chaîne :
+                il reçoit des données, les traite, produit un résultat et peut le sauvegarder.
+            </p>
+        </div>
+
+        <!-- ===== FLOW DIAGRAM ===== -->
+        <div class="flow-diagram">
+
+            <!-- 1. ENTRÉE -->
+            <div class="block-card block-input">
+                <div class="icon-circle">⌨️</div>
+                <div class="block-title">Entrée</div>
+                <div class="block-role">L'information entre dans l'ordinateur</div>
+                <ul class="examples">
+                    <li><span class="emoji">⌨️</span> Clavier</li>
+                    <li><span class="emoji">🖱️</span> Souris</li>
+                    <li><span class="emoji">🎤</span> Microphone</li>
+                    <li><span class="emoji">📷</span> Webcam</li>
+                </ul>
+            </div>
+
+            <!-- Arrow 1 -->
+            <div class="arrow-container">
+                <div class="arrow">
+                    <div class="arrow-pulse"></div>
+                    <span class="arrow-label">données</span>
+                </div>
+            </div>
+
+            <!-- 2. TRAITEMENT -->
+            <div class="block-card block-cpu">
+                <div class="icon-circle">🧠</div>
+                <div class="block-title">Traitement (CPU)</div>
+                <div class="block-role">Le « cerveau » de l'ordinateur</div>
+                <ul class="examples">
+                    <li><span class="emoji">⚙️</span> Processeur</li>
+                    <li><span class="emoji">💾</span> Mémoire RAM</li>
+                    <li><span class="emoji">🔧</span> Carte mère</li>
+                    <li><span class="emoji">📟</span> Calculs & logique</li>
+                </ul>
+            </div>
+
+            <!-- Arrow 2 -->
+            <div class="arrow-container">
+                <div class="arrow">
+                    <div class="arrow-pulse"></div>
+                    <span class="arrow-label">résultat</span>
+                </div>
+            </div>
+
+            <!-- 3. SORTIE -->
+            <div class="block-card block-output">
+                <div class="icon-circle">🖥️</div>
+                <div class="block-title">Sortie</div>
+                <div class="block-role">Le résultat est affiché ou diffusé</div>
+                <ul class="examples">
+                    <li><span class="emoji">🖥️</span> Écran (moniteur)</li>
+                    <li><span class="emoji">🖨️</span> Imprimante</li>
+                    <li><span class="emoji">🔊</span> Haut-parleurs</li>
+                    <li><span class="emoji">🎧</span> Casque audio</li>
+                </ul>
+            </div>
+
+            <!-- Arrow 3 -->
+            <div class="arrow-container">
+                <div class="arrow">
+                    <div class="arrow-pulse"></div>
+                    <span class="arrow-label">sauvegarde</span>
+                </div>
+            </div>
+
+            <!-- 4. STOCKAGE -->
+            <div class="block-card block-storage">
+                <div class="icon-circle">💿</div>
+                <div class="block-title">Stockage</div>
+                <div class="block-role">L'information est sauvegardée</div>
+                <ul class="examples">
+                    <li><span class="emoji">💿</span> Disque dur (HDD)</li>
+                    <li><span class="emoji">⚡</span> SSD</li>
+                    <li><span class="emoji">🔑</span> Clé USB</li>
+                    <li><span class="emoji">☁️</span> Cloud / Internet</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- ===== DETAILS ===== -->
+        <div class="detail-section">
+            <div class="detail-card detail-input">
+                <h3>⌨️ Entrée</h3>
+                <p>
+                    Les <span class="keyword">périphériques d'entrée</span> permettent de
+                    <strong>saisir</strong> des données dans l'ordinateur. Par exemple,
+                    quand tu tapes un texte au <strong>clavier</strong>, les lettres sont
+                    envoyées vers le processeur.
+                </p>
+            </div>
+            <div class="detail-card detail-cpu">
+                <h3>🧠 Traitement (CPU)</h3>
+                <p>
+                    Le <span class="keyword">processeur (CPU)</span> est le
+                    <strong>cœur</strong> de l'ordinateur. Il exécute les
+                    <strong>calculs</strong> et suit les <strong>instructions</strong>
+                    des programmes. Sans lui, rien ne fonctionne !
+                </p>
+            </div>
+            <div class="detail-card detail-output">
+                <h3>🖥️ Sortie</h3>
+                <p>
+                    Les <span class="keyword">périphériques de sortie</span> permettent
+                    de <strong>voir</strong> ou <strong>entendre</strong> le résultat.
+                    L'<strong>écran</strong> affiche l'image, les
+                    <strong>haut-parleurs</strong> jouent le son.
+                </p>
+            </div>
+            <div class="detail-card detail-storage">
+                <h3>💿 Stockage</h3>
+                <p>
+                    Le <span class="keyword">stockage</span> conserve tes fichiers
+                    même quand l'ordinateur est <strong>éteint</strong>. Le
+                    <strong>disque dur</strong>, le <strong>SSD</strong> ou la
+                    <strong>clé USB</strong> sont des espaces de mémoire permanente.
+                </p>
+            </div>
+        </div>
+
+        <!-- ===== ANALOGY ===== -->
+        <div class="analogy-box">
+            <h3>🏭 L'analogie de l'usine</h3>
+            <p>
+                Imagine une usine qui fabrique des voitures 🚗 :<br>
+                <strong>Entrée</strong> → Les matières premières arrivent (acier, verre, pneus) ;<br>
+                <strong>Traitement</strong> → Les machines assemblent et transforment les pièces ;<br>
+                <strong>Sortie</strong> → Les voitures finies sortent de l'usine ;<br>
+                <strong>Stockage</strong> → Les plans de fabrication sont conservés dans les archives.
+            </p>
+        </div>
+
+        <!-- SOURCE -->
+        <div class="source">
+            <p>📖 Source : Cours d'informatique – Programme secondaire – Ministère de l'Éducation Nationale (Maroc)</p>
+        </div>
+
+    </div>
+</body>
+</html>
