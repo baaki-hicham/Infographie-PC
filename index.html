@@ -14,7 +14,7 @@
             <span class="badge">📘 Informatique — Tronc Commun</span>
             <h1>Schéma Fonctionnel<br>d'un Ordinateur</h1>
             <p class="subtitle">
-                L'ordinateur <strong>reçoit</strong>, <strong>traite</strong>, <strong>renvoie</strong> et <strong>stocke</strong> l'information automatiquement.
+                L'ordinateur <strong>reçoit</strong>, <strong>traite</strong>, <strong>stocke</strong> et <strong>renvoie</strong> l'information automatiquement.
             </p>
         </header>
 
@@ -37,8 +37,9 @@
                     <div class="flow-dot"></div>
                 </div>
 
-                <!-- 2. BLOC CENTRAL (CPU + MÉMOIRES) -->
+                <!-- 2. BLOC CENTRAL -->
                 <div class="central-stack">
+
                     <!-- Unité de traitement -->
                     <div class="bloc-group">
                         <div class="bloc-label">Traitement</div>
@@ -50,21 +51,20 @@
                         </ul>
                     </div>
 
-                    <!-- Flèches bidirectionnelles ↑↓ -->
-                    <!-- Flèches bidirectionnelles entre CPU et Mémoires -->
-                <div class="arrow-v-stack">
-                      <div class="arrow-v down">
-                        <div class="flow-dot"></div>
-                      </div>
-                      <div class="arrow-v up">
-                         <div class="flow-dot"></div>
-                      </div>
-                </div>
+                    <!-- Flèches -->
+                    <div class="arrow-v-stack">
+                        <div class="arrow-v down">
+                            <div class="flow-dot"></div>
+                        </div>
+                        <div class="arrow-v up">
+                            <div class="flow-dot"></div>
+                        </div>
+                    </div>
 
-                    <!-- Mémoires -->
+                    <!-- Stockage -->
                     <div class="bloc-group">
-                        <div class="bloc bloc-jaune">Mémoires</div>
-                        <div class="bloc-label bottom">Stockage de l'information</div>
+                        <div class="bloc bloc-jaune">Stockage</div>
+                        <div class="bloc-label bottom">Conservation de l'information</div>
                         <ul class="exemples">
                             <li>💿 Disque dur (HDD)</li>
                             <li>⚡ SSD</li>
@@ -93,63 +93,142 @@
 
         <!-- EXPLICATIONS -->
         <section class="details-grid">
+
             <div class="detail-card" style="--accent: #a0aec0;">
                 <h3>📥 Entrée</h3>
-                <p>L'information est <strong>codée</strong> (transformée en 0 et 1) pour être comprise par la machine.</p>
+                <p>
+                    L'information est <strong>codée</strong> (transformée en 0 et 1)
+                    pour être comprise par l'ordinateur.
+                </p>
             </div>
+
             <div class="detail-card" style="--accent: #ecc94b;">
                 <h3>⚙️ Unité de traitement</h3>
-                <p>Le <strong>CPU</strong> exécute les calculs et suit les instructions des programmes.</p>
+                <p>
+                    Le <strong>processeur (CPU)</strong> exécute les calculs
+                    et suit les instructions des programmes.
+                </p>
             </div>
+
             <div class="detail-card" style="--accent: #ecc94b;">
-                <h3>💾 Mémoires</h3>
-                <p>Elles <strong>stockent</strong> les données pendant et après le traitement, même éteint.</p>
+                <h3>💾 Stockage</h3>
+                <p>
+                    Les périphériques de stockage <strong>conservent</strong>
+                    les données pendant et après le traitement.
+                </p>
             </div>
+
             <div class="detail-card" style="--accent: #a0aec0;">
                 <h3>📤 Sortie</h3>
-                <p>Le résultat est <strong>décodé</strong> et présenté à l'utilisateur (image, son, papier).</p>
+                <p>
+                    Le résultat est <strong>décodé</strong> et présenté
+                    à l'utilisateur (image, son, papier).
+                </p>
             </div>
+
         </section>
 
-        <!-- ANALOGIE CERVEAU -->
+        <!-- ANALOGIE -->
         <section class="analogy-box">
+
             <h2>🧠 L'ordinateur et le cerveau humain</h2>
+
             <div class="analogy-grid">
+
+                <!-- Entrée -->
                 <div class="analogy-row">
                     <div class="icon">👁️</div>
-                    <div class="text"><strong>Entrée (Sens)</strong><br>Tes yeux voient un feu rouge → l'info <em>entre</em></div>
+
+                    <div class="text">
+                        <strong>Entrée (Sens)</strong><br>
+                        Tes yeux voient un feu rouge → l'information <em>entre</em>
+                    </div>
+
                     <div class="arrow-mini">→</div>
+
                     <div class="icon">⌨️</div>
-                    <div class="text"><strong>Entrée (Clavier)</strong><br>Tu appuies sur une touche → l'info <em>entre</em></div>
+
+                    <div class="text">
+                        <strong>Entrée (Clavier)</strong><br>
+                        Tu appuies sur une touche → l'information <em>entre</em>
+                    </div>
                 </div>
+
+                <!-- Traitement -->
                 <div class="analogy-row">
                     <div class="icon">🧠</div>
-                    <div class="text"><strong>Traitement (Cerveau)</strong><br>Ton cerveau <em>pense</em> : "Je dois m'arrêter !"</div>
+
+                    <div class="text">
+                        <strong>Traitement (Cerveau)</strong><br>
+                        Ton cerveau <em>analyse</em> : « Je dois m'arrêter ! »
+                    </div>
+
                     <div class="arrow-mini">→</div>
+
                     <div class="icon">⚙️</div>
-                    <div class="text"><strong>Traitement (CPU)</strong><br>Le processeur <em>calcule</em> : "Afficher l'image"</div>
+
+                    <div class="text">
+                        <strong>Traitement (CPU)</strong><br>
+                        Le processeur <em>traite</em> l'information et envoie l'ordre d'afficher l'image.
+                    </div>
                 </div>
+
+                <!-- Mémoire -->
                 <div class="analogy-row">
-                    <div class="icon">💾</div>
-                    <div class="text"><strong>Mémoire (Souvenirs)</strong><br>Tu te <em>souviens</em> que rouge = stop</div>
+                    <div class="icon">🧠</div>
+
+                    <div class="text">
+                        <strong>Mémoire (Souvenirs)</strong><br>
+                        Tu te <em>souviens</em> que rouge = stop
+                    </div>
+
                     <div class="arrow-mini">↑↓</div>
+
                     <div class="icon">💿</div>
-                    <div class="text"><strong>Mémoire (Disque dur)</strong><br>L'ordi <em>sauvegarde</em> le fichier</div>
+
+                    <div class="text">
+                        <strong>Stockage (Disque dur)</strong><br>
+                        L'ordinateur <em>sauvegarde</em> les fichiers.
+                    </div>
                 </div>
+
+                <!-- Sortie -->
                 <div class="analogy-row">
                     <div class="icon">🦶</div>
-                    <div class="text"><strong>Sortie (Action)</strong><br>Ton pied appuie sur le frein → l'info <em>sort</em></div>
+
+                    <div class="text">
+                        <strong>Sortie (Action)</strong><br>
+                        Ton pied appuie sur le frein → l'information <em>sort</em>
+                    </div>
+
                     <div class="arrow-mini">→</div>
+
                     <div class="icon">🖥️</div>
-                    <div class="text"><strong>Sortie (Écran)</strong><br>L'écran affiche le résultat → l'info <em>sort</em></div>
+
+                    <div class="text">
+                        <strong>Sortie (Écran)</strong><br>
+                        L'écran affiche le résultat → l'information <em>sort</em>
+                    </div>
                 </div>
+
             </div>
-            <p class="analogy-conclusion"> L'ordinateur fonctionne comme ton cerveau : il <strong>reçoit</strong>, <strong>traite</strong>, <strong>stocke</strong> et <strong>réagit</strong>. La différence ? Il le fait automatiquement, grâce à des programmes.</p>
+
+            <p class="analogy-conclusion">
+                L'ordinateur fonctionne comme le cerveau humain :
+                il <strong>reçoit</strong>, <strong>traite</strong>,
+                <strong>stocke</strong> et <strong>renvoie</strong> l'information.
+                La différence ? Il le fait automatiquement grâce aux programmes.
+            </p>
+
         </section>
 
         <!-- SOURCE -->
         <footer class="source">
-            <p> Source : Programme et Instructions Officielles — Ministère de l'Éducation Nationale du Maroc (Mars 2005) — Module 1 : Généralités sur les systèmes informatiques</p>
+            <p>
+                Source : Programme et Instructions Officielles —
+                Ministère de l'Éducation Nationale du Maroc (Mars 2005) —
+                Module 1 : Généralités sur les systèmes informatiques
+            </p>
         </footer>
 
     </div>
